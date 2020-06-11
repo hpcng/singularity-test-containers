@@ -3,18 +3,12 @@
 Dockerfiles & Definition files used for containers pulled from the Singularity
 test suite.
 
-On hub.docker.com/u/sylabsio:
+## docker-*
 
- - `docker-aufs-sanity`
- - `docker-userperms`
- - `docker-linkwh`
- - `docker-lolcow`
- - `docker-issue4525`
+Currently these live at hub.docker.com/u/sylabsio
 
 To build and push these containers for multiple architectures, using Docker
-Desktop...
-
-Ensure you are using Docker Desktop >2.0.4.0 and turn on Command Line
+Desktop, ensure you are using Docker Desktop >2.0.4.0 and turn on Command Line
 Experimental Features in preferences.
 
 Setup a buildx multi-arch builder:
