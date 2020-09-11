@@ -7,4 +7,5 @@ docker buildx build --platform "$PLATFORMS" -t sylabsio/issue4525:latest --push 
 docker buildx build --platform "$PLATFORMS" -t sylabsio/linkwh:latest --push docker-linkwh
 docker buildx build --platform "$PLATFORMS" -t sylabsio/lolcow:latest --push docker-lolcow
 docker buildx build --platform "$PLATFORMS" -t sylabsio/userperms:latest --push docker-userperms
+docker buildx build --platform "$PLATFORMS" -t sylabsio/issue5298:latest --push docker-issue5298
 
